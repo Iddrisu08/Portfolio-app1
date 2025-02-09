@@ -1,0 +1,15 @@
+# Service for the application
+apiVersion: v1
+kind: Service
+metadata:
+  name: portfolio-web-app
+  labels:
+    app: portfolio-web-app
+spec:
+  ports:
+  - port: 80
+    targetPort: 8080
+    protocol: TCP
+  selector:
+    app: portfolio-web-app
+  type: ClusterIP

@@ -1,0 +1,22 @@
+# This is a sample deployment manifest file for a simple web application.
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: portfolio-web-app
+  labels:
+    app: portfolio-web-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: portfolio-web-app
+  template:
+    metadata:
+      labels:
+        app: portfolio-web-app
+    spec:
+      containers:
+      - name: portfolio-web-app
+        image: iddris/portfolio-web-app:{{ .Values.image.tag }}
+        ports:
+        - containerPort: 8080
