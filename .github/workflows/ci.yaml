@@ -32,8 +32,8 @@ jobs:
     - name: Test
       run: go test ./...
   
-  code-quality:
-    runs-on: ubuntu-latest
+  #code-quality:
+    #runs-on: ubuntu-latest
 
     #steps:
     #- name: Checkout repository
