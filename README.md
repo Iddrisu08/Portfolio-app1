@@ -1,3 +1,5 @@
+[![CI/CD](https://github.com/Iddrisu08/Portfolio-app1/actions/workflows/ci.yaml/badge.svg)](https://github.com/Iddrisu08/Portfolio-app1/actions/workflows/ci.yaml)
+
 ### Main Function Points
 - This is a portfolio web application that showcases my work and skills.
 - The application is built using the Go programming language.
