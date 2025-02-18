@@ -102,6 +102,6 @@ Open a Pull Request.
 default copyright applies.
 
 
-### The Project is live at: 
+### The site is live at: 
 https://portfolio-app1-tqq1.onrender.com
 
