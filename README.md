@@ -7,14 +7,14 @@ A personal portfolio website developed using Go, containerized with Docker, and 
 
 ### Table of Contents
 
-Overview
+```Overview
 Features
 Technologies Used
 Installation
 Usage
 Project Structure
 Contributing
-License
+License```
 
 ### Overview
 
@@ -42,6 +42,7 @@ To set up the project locally:
 Clone the Repository:
 
 `git clone https://github.com/Iddrisu08/Portfolio-app1.git`
+
 `cd Portfolio-app1`
 
 Build the Docker Image:
@@ -78,7 +79,7 @@ Access the Application: Open your browser and navigate to `http://localhost:8080
         
 main.go: The main application file written in Go.
 Dockerfile: Instructions to build the Docker image.
-.github/workflows/ci-cd.yml: GitHub Actions workflow for the CI/CD pipeline.
+.github/workflows/ci-cd.yml: GitHub Actions workflow for the CI/CD pipeline.```
 
 ### Contributing
 
