@@ -66,7 +66,7 @@ Start the Application:
 
 Access the Application: Open your browser and navigate to `http://localhost:8080` to view the portfolio website.
 
-# Project Structure
+### Project Structure
 
 ```Portfolio-app1/
 ├── Dockerfile
