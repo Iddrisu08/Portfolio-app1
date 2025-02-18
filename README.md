@@ -7,7 +7,7 @@ A personal portfolio website developed using Go, containerized with Docker, and 
 
 ### Table of Contents
 
-`Overview
+```Overview
 Features
 Technologies Used
 Installation
@@ -15,7 +15,7 @@ Usage
 Project Structure
 Contributing
 License
-`
+```
 
 ### Overview
 
