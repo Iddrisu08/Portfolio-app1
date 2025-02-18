@@ -56,7 +56,7 @@ Run the Docker Container:
 
 The application will be accessible at `http://localhost:8080.`
 
-# Usage
+### Usage
 
 For local development:
 
@@ -80,7 +80,8 @@ Access the Application: Open your browser and navigate to `http://localhost:8080
         
 main.go: The main application file written in Go.
 Dockerfile: Instructions to build the Docker image.
-.github/workflows/ci-cd.yml: GitHub Actions workflow for the CI/CD pipeline.```
+.github/workflows/ci-cd.yml: GitHub Actions workflow for the CI/CD pipeline.
+```
 
 ### Contributing
 
