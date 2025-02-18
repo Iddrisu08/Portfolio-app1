@@ -7,7 +7,7 @@ A personal portfolio website developed using Go, containerized with Docker, and 
 
 ### Table of Contents
 
-```Overview
+`Overview
 Features
 Technologies Used
 Installation
@@ -15,7 +15,7 @@ Usage
 Project Structure
 Contributing
 License
-```
+`
 
 ### Overview
 
@@ -89,8 +89,11 @@ Contributions are welcome! To contribute:
 
 Fork the repository.
 Create a new branch `(git checkout -b feature-branch).`
+
 Make your changes and commit them `(git commit -m 'Add new feature')`.
+
 Push to the branch `(git push origin feature-branch)`.
+
 Open a Pull Request.
 
 License
