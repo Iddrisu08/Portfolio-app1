@@ -8,7 +8,7 @@ image:
   repository: iddris/portfolio-web-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "13221171200"
+  tag: "13221428022"
 
 ingress:
   enabled: false
