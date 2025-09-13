@@ -344,61 +344,6 @@ The CI/CD pipeline is configured in `.github/workflows/ci.yaml` and includes:
 - **Network Security**: Proper firewall and network segmentation
 - **Regular Updates**: Automated security patches and dependency updates
 
-## Contributing
-
-We welcome contributions to improve the portfolio website! Here's how you can contribute:
-
-### Development Workflow
-
-1. **Fork the Repository**
-   ```bash
-   git fork https://github.com/Iddrisu08/Portfolio-app1.git
-   ```
-
-2. **Create Feature Branch**
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-
-3. **Make Your Changes**
-   - Follow the existing code style and conventions
-   - Add tests for new functionality
-   - Update documentation as needed
-
-4. **Test Your Changes**
-   ```bash
-   go test ./...
-   go fmt ./...
-   go vet ./...
-   ```
-
-5. **Commit and Push**
-   ```bash
-   git commit -m "Add: brief description of your changes"
-   git push origin feature/your-feature-name
-   ```
-
-6. **Create Pull Request**
-   - Provide clear description of changes
-   - Include screenshots for UI changes
-   - Reference any related issues
-
-### Code Style Guidelines
-
-- Follow Go best practices and idioms
-- Use meaningful variable and function names
-- Include comments for complex logic
-- Maintain consistent formatting
-- Write comprehensive tests for new features
-
-### Reporting Issues
-
-If you find bugs or have feature requests:
-
-1. Check existing issues first
-2. Create a detailed issue with steps to reproduce
-3. Include system information and error messages
-4. Add labels for categorization
 
 ## License
 
@@ -416,5 +361,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-**Built with ❤️ using Go, Docker, Kubernetes, and modern web technologies.**
+**Built using Go, Docker, Kubernetes, and modern web technologies.**
 
