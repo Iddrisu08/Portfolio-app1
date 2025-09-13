@@ -105,6 +105,7 @@ func contactHandler(w http.ResponseWriter, r *http.Request) {
     log.Printf("Message: %s", message.Message)
     log.Printf("Date: %s", message.Date.Format(time.RFC3339))
 
+
     // Respond with success
     json.NewEncoder(w).Encode(map[string]interface{}{
         "success": true,
