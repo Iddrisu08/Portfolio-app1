@@ -329,6 +329,31 @@ section h2::after {
     max-height: 400px;
 }
 
+/* Multiple Images Layout */
+.event-images-multiple {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    background: #f8f9fa;
+    padding: 10px;
+}
+
+.event-images-multiple img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    max-height: 300px;
+}
+
+.event-card:hover .event-images-multiple img {
+    transform: scale(1.03);
+}
+
 .event-card:hover .event-image img {
     transform: scale(1.05);
 }
@@ -662,6 +687,17 @@ footer {
     
     .event-image img {
         max-height: 300px;
+    }
+    
+    .event-images-multiple {
+        grid-template-columns: 1fr;
+        gap: 8px;
+        padding: 8px;
+        min-height: 150px;
+    }
+    
+    .event-images-multiple img {
+        max-height: 250px;
     }
     
     .event-content {
